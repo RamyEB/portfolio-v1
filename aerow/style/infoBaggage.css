@@ -1,0 +1,95 @@
+@import 'knack.css';
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import 'listVols.css';
+.infoFlight {
+    /* border: 5px solid red; */
+    height: max-content;
+    width: max-content;
+    max-width: 1350px;
+    margin: auto;
+    display: flex;
+    padding: 10px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.055);
+    border-radius: 7px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(243, 243, 243);
+}
+
+.owner {
+    margin: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+
+/* CARDS */
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.637);
+    width: 200px;
+    height: 290px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.card img {
+    width: max-content;
+    margin: auto;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.301);
+}
+
+.card .text_baggage {
+    margin: 10px 0px 10px 10px;
+    color: black;
+}
+
+.card .text_baggage p {
+    margin: 0;
+    width: max-content;
+}
+
+.card button {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
+
+.card .delete {
+    background-color: rgb(194, 3, 3);
+}
+
+.card .add {
+    background-color: rgb(3, 108, 194);
+    margin-top: 12px;
+}
+
+.card_add {
+    height: 200px;
+}
+
+.card_add p {
+    width: max-content;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card_add .choice {
+    margin: 0px;
+    display: block;
+    margin: auto;
+}

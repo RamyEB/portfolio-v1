@@ -1,0 +1,325 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css?family=Crete+Round&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #444;
+}
+
+h1 {
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+p {
+    line-height: 20px;
+    color: #777;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.orange {
+    color: #ff7a00;
+}
+
+.clear {
+    clear: both;
+}
+
+small {
+    font-size: 13px;
+    font-style: italic;
+}
+
+
+/* HEADER */
+
+header {
+    height: 120px;
+}
+
+header h1 {
+    float: left;
+    margin-top: 32px;
+}
+
+header nav {
+    float: right;
+    margin-top: 50px;
+}
+
+header nav ul li {
+    float: left;
+    /*display: inline-block;*/
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* MAIN-IMAGE */
+
+#main-image {
+    height: 580px;
+    background: url('images/main.jpg') center;
+}
+
+#main-image h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+}
+
+.button-1 {
+    display: block;
+    width: 130px;
+    height: 50px;
+    background: rgba(255, 122, 0, 1);
+    color: #fff;
+    font-size: 15px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+
+.button-1:hover {
+    background: rgba(21, 130, 255, 1);
+    transform: scale(1.03);
+}
+
+
+/* STEPS */
+
+#steps h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#steps ul {
+    margin: 80px 0;
+}
+
+#steps p {
+    margin-bottom: 20px;
+}
+
+#steps ul li {
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#step-1 {
+    background: url('images/steps-icon-1.png') no-repeat top center;
+}
+
+#step-2 {
+    background: url('images/steps-icon-2.png') no-repeat top center;
+}
+
+#step-3 {
+    background: url('images/steps-icon-3.png') no-repeat top center;
+}
+
+
+/* POSSIBILITIES */
+
+#possibilities {
+    background-color: #efefef;
+    padding: 60px 0;
+}
+
+#possibilities article {
+    width: 460px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+
+#possibilities article p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#possibilities article h4 {
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#article-g {
+    background: url('images/article-image-1.jpg') no-repeat top center;
+    margin-right: 20px;
+}
+
+#article-d {
+    background: url('images/article-image-2.jpg') no-repeat top center;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 1);
+    height: 100%;
+    width: 240px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.button-possibilities {
+    color: #fff;
+    background-color: rgba(255, 122, 0, 1);
+    padding: 6px 20px;
+    border-radius: 3px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+
+.button-possibilities:hover {
+    background: rgba(21, 130, 255, 1);
+}
+
+
+/* CONTACT */
+
+#contact {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact h3 {
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    border-bottom: solid 1px rgba(21, 130, 255, 1);
+    padding: 20px;
+}
+
+form {
+    margin: 60px 0 20px 0;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+
+input[type=text] {
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+#label-textarea-contact {
+    display: block;
+    width: 300px;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+
+textarea {
+    margin: 10px;
+    resize: none;
+}
+
+.button-contact {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: rgba(21, 130, 255, 1);
+    border-style: none;
+    border-radius: 3px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    margin-top: 20px;
+}
+
+.button-contact:hover {
+    background-color: #444;
+}
+
+
+/* FOOTER */
+
+footer {
+    height: 260px;
+    background-color: #444;
+}
+
+footer h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}

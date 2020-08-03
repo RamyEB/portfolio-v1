@@ -1,0 +1,118 @@
+/* GENERAL */
+
+@import 'knack.css';
+@import url('https://fonts.googleapis.com/css?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+h1 span {
+    color: rgb(13, 81, 126);
+    font-family: 'Crete Round', serif;
+}
+
+
+/* LEFT */
+
+img {
+    height: 100%;
+}
+
+
+/* RIGHT */
+
+#panneauDroite {
+    background-color: rgb(253, 253, 253);
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    /* contexte sur le parent */
+    flex-direction: column;
+    /* direction d'affichage verticale */
+    justify-content: center;
+    /* alignement vertical */
+    text-align: center;
+}
+
+
+/* LOGIN */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.login-page {
+    width: 360px;
+    margin: auto;
+    text-align: center;
+}
+
+#moduleLogin {
+    margin: auto;
+}
+
+#panneauDroite h1 {
+    font-size: 80px;
+    font-weight: bolder;
+    color: #444;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.login-form h5 {
+    margin-bottom: 35px;
+    font-family: "Lato", sans-serif;
+}
+
+.form input {
+    font-family: "Lato", sans-serif;
+    outline: 0;
+    background: #ffffff;
+    width: 99%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form input:focus {
+    background: rgb(13, 81, 126, 0.1);
+}
+
+.form button {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(13, 81, 126);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: rgb(13, 81, 126, 0.9);
+}
+
+#erreurConnexion {
+    margin-top: 10px;
+    color: red;
+    font-size: 13px;
+}
